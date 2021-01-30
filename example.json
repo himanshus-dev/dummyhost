@@ -1,0 +1,16 @@
+[
+    {
+        "endpoint": "/ping",
+        "GET": {"msg": "pong"},
+        "POST": {"msg": "pong"},
+        "PUT": {"msg": "pong"},
+        "DELETE": {"msg": "pong"}
+    },
+    {
+        "endpoint": "/ping/v2",
+        "GET": {"msg": "pong v2"},
+        "POST": {"msg": "pong v2"},
+        "PUT": {"msg": "pong v2"},
+        "DELETE": {"msg": "pong v2"}
+    }
+]
